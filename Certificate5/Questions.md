@@ -13,7 +13,7 @@
 ---
 
 ## Question 3
-**What is the advantage of converting the 'Date' column to a datetime data type when analyzing stock data?**
+**What is the advantage of converting the `Date` column to a datetime data type when analyzing stock data?**
 
 - [ ] It minimizes the size of the dataset
 - [ ] It increases computational efficiency
@@ -27,7 +27,7 @@
 ## Question 4
 **Given the dataset below, select the correct option to remove the `$` symbol and commas from the `Price` column.**
 
-Sample dataset:
+### Sample dataset
 
 | Product  | Quantity | Price     |
 |----------|----------|-----------|
@@ -37,16 +37,18 @@ Sample dataset:
 | Monitor  | 8        | $1,050.25 |
 | Keyboard | 30       | $120.99   |
 
-Options:
+### Options
 
 - [ ] `df["Price"] = df["Price"].map(lambda x: x.strip("$,"))`
-- [x] `df["Price"] = df["Price"].str.replace(',|\$',"", regex=True)`
+- [x] `df["Price"] = df["Price"].str.replace(',|\$', "", regex=True)`
 - [ ] `df["Price"] = df["Price"].replace("$,", "")`
-- [ ] `df["Price"] = df.Price.apply(float)`
+- [ ] `df.Price = df.Price.apply(float)`
 
 **Answer:**
+
 ```python
-df["Price"] = df["Price"].str.replace(',|\$',"", regex=True)
+df["Price"] = df["Price"].str.replace(',|\$', "", regex=True)
+```
 
 ---
 
@@ -63,7 +65,7 @@ df["Price"] = df["Price"].str.replace(',|\$',"", regex=True)
 ---
 
 ## Question 6
-**Select the `Close` value for the first record (dated 2002-02-13) in the extracted GameStop stock data.**
+**Select the `Close` value for the first record (dated `2002-02-13`) in the extracted GameStop stock data.**
 
 - [ ] 1.693353
 - [ ] 1.620128
@@ -75,7 +77,7 @@ df["Price"] = df["Price"].str.replace(',|\$',"", regex=True)
 ---
 
 ## Question 7
-**Following the graph shown below, which of the following statements best describes the trend in Tesla's stock price and revenue between 2018 and 2021?**
+**Following the graph shown below, which statement best describes the trend in Tesla's stock price and revenue between 2018 and 2021?**
 
 - [x] Both Tesla’s revenue and stock price showed strong growth.
 - [ ] Tesla’s stock price increased sharply, but revenue declined.
