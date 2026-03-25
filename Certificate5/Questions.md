@@ -47,3 +47,50 @@ Options:
 **Answer:**
 ```python
 df["Price"] = df["Price"].str.replace(',|\$',"", regex=True)
+
+
+## Question 5
+**Determine the `Revenue` figure found in the final entry of the `tesla_revenue` dataset.**
+
+- [ ] 30
+- [ ] 22
+- [ ] 45
+- [x] 27
+
+**Answer:** `27`
+
+---
+
+## Question 6
+**Select the `Close` value for the first record (dated 2002-02-13) in the extracted GameStop stock data.**
+
+- [ ] 1.693353
+- [ ] 1.620128
+- [x] 1.691667
+- [ ] 1.620396
+
+**Answer:** `1.691667`
+
+---
+
+## Question 7
+**Following the graph shown below, which of the following statements best describes the trend in Tesla's stock price and revenue between 2018 and 2021?**
+
+- [x] Both Tesla’s revenue and stock price showed strong growth.
+- [ ] Tesla’s stock price increased sharply, but revenue declined.
+- [ ] Tesla’s revenue remained flat while stock price dropped significantly.
+- [ ] Revenue growth was high, but the stock price stayed constant.
+
+**Answer:** `Both Tesla’s revenue and stock price showed strong growth.`
+
+---
+
+## Question 8
+**Following the graph shown below, what key observation can be made about GameStop's stock price and revenue?**
+
+- [ ] Both revenue and stock price followed the same upward trend steadily.
+- [x] Stock price surged sharply around 2021, but revenue did not show a similar increase.
+- [ ] Stock price and revenue remained stable throughout the timeline.
+- [ ] Revenue growth directly caused the stock price surge.
+
+**Answer:** `Stock price surged sharply around 2021, but revenue did not show a similar increase.`
