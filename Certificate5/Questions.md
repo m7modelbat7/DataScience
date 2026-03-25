@@ -48,6 +48,7 @@ Options:
 ```python
 df["Price"] = df["Price"].str.replace(',|\$',"", regex=True)
 
+---
 
 ## Question 5
 **Determine the `Revenue` figure found in the final entry of the `tesla_revenue` dataset.**
